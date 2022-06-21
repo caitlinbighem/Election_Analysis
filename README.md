@@ -1,33 +1,34 @@
-# Election_Analysis
+# Election Analysis
+Click here to view the Python file: [Election Analysis]( https://github.com/caitlinbighem/Election_Analysis/blob/main/PyPoll_Challenge.py)
 
-## Project Oerview
-A Colorado Board of Elections employee has given you the following task to complete the election audit of a recent local congressional election.
+## Overview of Election Audit
+The purpose of this election analysis audit was to run and complete comprehensive data analysis of a recent local congressional election to create an overview with clearly defined results. Specified results 
 
-1. Calculate the total number of votes cast.
-2. Get a complete list of candidates who received votes.
-3. Calculate the total number of votes each candidate received.
-4. Calculate the percentage of votes each candidate won.
-5. Determine the winner of the election based on popular vote.
+## Election Audit Results
+![Election Results]( https://github.com/caitlinbighem/Election_Analysis/blob/main/Analysis/election_results.txt) 
+**Total Votes Cast** in this congressional election was **369,711** 
 
-## Resources
+***County Votes and County Vote Percentage:***
+- **Jefferson** county has `10.5%` total percentage with a total votes of **38,855**
+- **Denver** county has the `82.8%` total percentage with a total votes of **306,055**
+- **Arapahoe** county has `6.7%` total percentage with a total votes of **24,801**
 
-- Data Source: election_results.csv
-- Software: Python 3.9, Visual Studio Code 1.50.0
+***County with Largest Number of Votes:***
+- **Denver** county has the largest number total of **306,055**
+- **Denver** county has the total votes percentage of `82.8%`  
+- **Denver** county is the Largest County Turnout
 
-## Summary
-The analysis of the election show that:
-- There were "x" votes cast in the election. 
-- The candidates were:
-    - Candidate 1
-    - Candidate 2
-    - Candidate 3
-- The candidate results were: 
-    - Candidate 1 received "x%" of the vote and "y" number of votes.
-    - Candidate 2 received "x%" of the vote and "y" number of votes.
-    - Candidate 3 received "x%" of the vote and "y" number of votes.
-- The winner of the election was:
-    - Candidate (1, 2, or 3), who received "x%" of the vote and "y" number of votes.
+***Candidate Percentage of Votes:***
+- **Charles Casper Stockham** candidate has `23.0%` total percentage with a total votes of **85,213**
+- **Diana DeGette** candidate has the `73.8` total percentage with a total votes of **272,892**
+- **Raymon Anthony Doane** candidate has `3.1%` total percentage with a total votes of **11,606**
 
-## Challenge Overview
+***Election Results:***
+- **Diana DeGette** won the election, with a total votes of **272,892**
+- **Diana DeGette** has the total percentage votes of `73.8%`  
+- **Diana DeGette** is the Winner!
 
-## Challenge Summary
+## Election Audit Summary
+This script can be adapted to find the greatest number of votes for different filters other than candidates and county. Additional data points such as individual demographics can be used to modify the script and contribute to a deeper analysis of election data.
+
+We can also modify the script to identify patterns by testing percentage of voters within a certain demographic by county in regards to each of the candidates. The result would show which candidate was most popular among a specific age group for example. 
